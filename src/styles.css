@@ -1,7 +1,7 @@
 @import "tw-animate-css";
-@import "tailwindcss" source ("./src");
-@custom-variant dark (&:is(.dark *));
-@theme inline {
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *)); 
+
   --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
